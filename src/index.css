@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  border-radius: 20px !important;
+}
+
+.btn-contained {
+  background-color: #05FFFF !important;
+  color: #000 !important;
+}
+
+.btn-outlined {
+  border: 1px solid #05FFFF !important;
+  color: #05FFFF !important;
+}
+
+.btn-primary-contained {
+  background-color: #7C3AED !important;
+  color: #fff !important;
+}
+
+.btn-primary-outlined {
+  border: 1px solid #7C3AED !important;
+  color: #7C3AED !important;
+}
+
+.hero-text {
+  /* Montserrat */
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 5rem !important;
+  font-weight: 500 !important;
+  color: linear-gradient(to bottom, #2563EB, #000) !important;
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
